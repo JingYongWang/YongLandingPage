@@ -1,0 +1,23 @@
+{
+  "name": "Yong",
+  "version": "1.0.0",
+  "description": "Landing Page",
+  "main": "index.js",
+  "dependencies": {
+    "fullpage.js": "^2.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JingYongWang/YongLandingPage.git"
+  },
+  "author": "Yong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JingYongWang/YongLandingPage/issues"
+  },
+  "homepage": "https://github.com/JingYongWang/YongLandingPage"
+}

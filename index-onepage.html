@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <!--Scroll JS-->
+  <!--
+  <link rel="stylesheet" href="js/Scroll.js">
+  -->
+  <!--Jquery-->
+
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/onepage-scroll-master/jquery.onepage-scroll.js"></script>
+  <link rel="stylesheet" type="text/css" href="js/onepage-scroll-master/onepage-scroll.css">
+  
+  <style type="text/css">
+    html {
+      height: 100%;
+    }
+
+    body{
+      background: #E2E4E7;
+      height: 100%; 
+    }
+
+    .main section.page1 {
+      background:rgb(230, 217, 200);
+    }
+
+    .main section.page2{
+
+      background: #555557;
+    }
+
+
+  </style>
+
+
+</head>
+
+<script>
+    $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: true
+      });
+    });
+    
+</script>
+
+<body>
+
+<div class="main">  <!--onePage Start-->
+  <div class="wrapper">
+      <!-- Primary Page Layout
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <div class="container"> <!--container for skeleton-->
+        
+        <section class = "page1"> <!--       <section> </section>  start to end for one page      -->
+          <div class="row">  <!--row for skeleton-->
+            <div class="one-half column" style="margin-top: 25%"> <!--1/2,margin-top-->
+              <h4>第一個頁面</h4>
+              <p>我是王勁詠!!!</p>
+              <img class="u-max-full-width" src="img/Cry.jpg" height="96" width="96" >
+              <img class="u-max-full-width" src="img/Cry.jpg" height="96" width="96" >
+            </div>
+          </div>
+
+
+        </section>
+
+        <section class = "page2">
+          <div class="row">
+            <div class="one-half column" style="margin-top: 100%"> 
+              <h4>第二個頁面</h4>
+              <p>請多指教</p>
+
+              
+              <code class="js">
+                $(".main").onepage_scroll();
+              </code>
+
+            </div>
+          </div>
+        </section>
+
+
+        <section>
+          <div class="row">
+            <div class="one-half column" style="margin-top: 175%"> <!--1/2,margin-top-->
+              <h4>第三個頁面</h4>
+              <p>請多指教</p>
+            </div>
+          </div>
+        </section>
+
+
+      </div>
+
+    <!-- End Document
+      –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  </div>
+</div>
+
+
+</body>
+</html>
